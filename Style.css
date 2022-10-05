@@ -48,3 +48,19 @@ body {
                                     .parrafoP{
                                          padding: 20px;
                                     }
+
+
+
+
+
+footer{
+    background-color: rgb(43, 141,156,0.9);
+    height: 134px;
+}    
+            .contenedor-footer{
+                display: flex;
+            }  
+            .copyright{
+                background-color: rgb(43, 141,156);
+                height: 30px;
+            }    
