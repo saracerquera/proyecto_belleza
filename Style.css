@@ -25,7 +25,7 @@ body {
     overflow: hidden;
 }
         .seccionOne {
-            background-color: blueviolet;
+            background-color: none;
             height: 500px;
             width: 60%;
         }
@@ -52,15 +52,28 @@ body {
 
 
 
-
-footer{
-    background-color: rgb(43, 141,156,0.9);
-    height: 134px;
-}    
+    
             .contenedor-footer{
                 display: flex;
+                background-color: rgb(43, 141,156,0.9);
+                height: 254px;
             }  
-            .copyright{
-                background-color: rgb(43, 141,156);
-                height: 30px;
+                    .footerOne{
+                        width: 33%;
+                        padding: 50px;
+                    }
+                        .footerTwo{
+                            width: 33%;
+                             }
+                                .footerThree{
+                                     width: 34%;
+                                     padding: 50px;
+                                     }
+
+
+
+
+        .copyright{
+             background-color: rgb(43, 141,156);
+             height: 30px;
             }    
