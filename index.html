@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="Style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 
 </head>
 <body>
@@ -90,10 +93,58 @@
           </div>
  </div>
 
+<!-- aqui va el otro carrusel: -->
+
+            <div class="container">
+              <div class="carousel">
+                <div class="carousel__contenedor">
+                  <button aria-label="Anterior" class="carousel__anterior">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+          
+                  <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                      <img src="img//base01.png" alt="Rock and Roll Hall of Fame">
+                      <p>Rock and Roll Hall of Fame</p>
+                    </div>
+                    <div class="carousel__elemento">
+                      <img src="img/labial1.png" alt="Constitution Square - Tower I">
+                      <p>Constitution Square - Tower I</p>
+                    </div>
+                    <div class="carousel__elemento">
+                      <img src="img/base05.png" alt="Empire State Building">
+                      <p>Empire State Building</p>
+                    </div>
+                    <div class="carousel__elemento">
+                      <img src="img/base06.png" alt="Harmony Tower">
+                      <p>Harmony Tower</p>
+                    </div>
+            
+                    <div class="carousel__elemento">
+                      <img src="img/paleta02.png" alt="Empire State Building">
+                      <p>Empire State Building</p>
+                    </div>
+                    <div class="carousel__elemento">
+                      <img src="img/base05.png" alt="Harmony Tower">
+                      <p>Harmony Tower</p>
+                    </div>
+                  </div>
+          
+                  <button aria-label="Siguiente" class="carousel__siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+          
+                <div role="tablist" class="carousel__indicadores"></div>
+              </div>
+            </div>
+            </div>
+
+
 <!-- aqui va el footer  -->
  <footer class=" main-footer">
     <div class="contenedor-footer">
-            <div class="footerOne">
+            <div class="footer_One">
                 <h4>Somos Apasionados</h4>
                     <p>Estamos orgullosos de ser Latinos. Disfrutamos de la diversidad de esta región, del carácter de su gente, del color que le dan a la vida y la pasión que los caracteriza. Compartimos esa valentía, superación y optimismo.</p>
             </div>
@@ -115,5 +166,11 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+<script src="carusel.js"></script>
   </body>
 </html>

@@ -33,11 +33,11 @@ body {
             .seccionTwo{
            height: 500px;
             width: 40%;
-            background-color: rgb(255, 220, 220, 0.6);
+            background-color: rgb(255, 207, 221, 0.6);
             color: #010C0C;
         }
                     .somos{
-                        background-color: rgb(255, 220,220, 0.8);
+                        background-color: rgb(255, 207, 221, 0.8);
                         justify-content: space-around;
                          height: 500px;
                     }
@@ -58,7 +58,7 @@ body {
                 background-color: rgb(43, 141,156,0.9);
                 height: 254px;
             }  
-                    .footerOne{
+                    .footer_One{
                         width: 33%;
                         padding: 50px;
                     }
@@ -77,3 +77,84 @@ body {
              background-color: rgb(43, 141,156);
              height: 30px;
             }    
+
+
+
+
+            /* --- --- CAROUSEL --- --- */
+            .container {
+                background-color: rgb(255, 207, 221, 0.8);
+                margin: 10px;
+            }
+
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 40px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #010C0C;
+	opacity: 60%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -40px;
+}
+
+.carousel__siguiente {
+	right: -40px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 6px;
+	background: #010C0C;
+	opacity: .8;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
