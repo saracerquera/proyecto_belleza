@@ -1,73 +1,113 @@
-/*carrusel*/
+/*---carusel----*/
 
-.carousel__contenedor {
+.carusel__contenedor{
     position: relative;
-    }
-    
-    .carousel__anterior,
-    .carousel__siguiente {
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 30px;
-    border: none;
-    top: calc(50% - 40px);
-    cursor: pointer;
-    line-height: 30px;
+    background: rgb(243, 211, 235); 
+}
+
+.carusel__anterior,
+.carusel__siguiente {
+     position: absolute;
+     display: block;
+     width: 30px;
+     height: 30px;
+     border: none;
+     top: calc(50% - 35px);
+     cursor: pointer;
+     line-height: 30px;
+     text-align: center;
+     background: none;
+     color: rgb(15, 182, 79);
+     opacity: 20%;
+     padding: 5px;
+     margin: 10px;
+     z-index: 100%;
+}
+.carusel__anterior{
+    left: -30px;
+}
+.carusel__siguiente{
+    right: -30px;
+}
+#sombra1{
+    margin: 40px;
     text-align: center;
-    background: none;
-    color: #010C0C;
-    opacity: 60%;
-    }
-    
-    .carousel__anterior:hover,
-    .carousel__siguiente:hover {
-    opacity: 100%;
-    }
-    
-    .carousel__anterior {
-    left: -40px;
-    }
-    
-    .carousel__siguiente {
-    right: -40px;
-    }
-    
-    .carousel__lista {
+    background-color: rgb(223, 187, 217);
+}
+#sombra2{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+
+#sombra3{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+
+
+#brochas{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#base1{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#base2{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#base3{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#base4{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#labial1{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#labial2{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+#labial3{
+    margin: 45px;
+    text-align: center;
+    background-color: rgb(223, 187, 217);
+}
+
+.carusel__lista{
     overflow: hidden;
-    }
-    
-    .carousel__elemento {
-    text-align: center;
-    }
-    
-    .carousel__indicadores .glider-dot {
+}
+
+.carusel__indicadores .glider-dot{
     display: block;
     width: 30px;
-    height: 6px;
-    background: #010C0C;
-    opacity: .8;
+    height: 4px;
+    background: rgb(4, 223, 146);
+    opacity: .2;
     border-radius: 0;
-    }
-    
-    .carousel__indicadores .glider-dot:hover {
+}
+.carusel__indicadores .glider-dot:hover{
     opacity: .5;
-    }
-    
-    .carousel__indicadores .glider-dot.active {
+}
+.carusel__indicadores .glider-dot.active{
     opacity: 1;
-    }
-    
-    @media screen and (max-width: 800px) {
-    body {
-        padding: 40px 0;
-    }
-    
-    .contenido-principal {
-        flex-direction: column;
-    }
-    
-    .contenido-principal > * {
-        width: 100%;
-    }
-    }
+}
+
+
+
+
+
