@@ -1,0 +1,184 @@
+body {
+    background-image: url(img/fondo.jpg);
+}
+
+    .navbar {
+    background-color: rgb(43, 141, 153,0.8);
+    color: #F5F1F1;
+    }
+            #logo{
+                background-image: url(img/logo.png);
+                width: 123px;
+                height: 135px;
+                background-position: center;
+                background-size:contain;
+                background-repeat: none;
+            }
+
+                    a .navbar{
+                        color: #F5F1F1;  
+                    }
+
+.nombre{
+    height: 50px;
+    width: 100%;
+    color:#F5F1F1;
+    background-color: #010C0C;
+}
+
+
+.first-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+        .seccionOne {
+            background-color: none;
+            width: 500px;
+            height: 300px;
+        }
+
+            .seccionTwo{
+            width: 400px;
+            height: 300px;
+            background-color: rgb(255, 207, 221, 0.6);
+            color: #010C0C;
+        }
+                    .somos{
+                        background-color: rgb(255, 207, 221, 0.8);
+                        justify-content: space-around;
+                    }
+                            .parrafoH{
+                                padding: 30px;
+                            }
+                                    .parrafoP{
+                                         padding: 20px;
+                                    }
+
+
+           /* --- --- CAROUSEL --- --- */
+           .contain1 {
+            background-color: rgb(255, 207, 221, 0.8);
+            margin: 10px;
+        }
+
+.loMas_vendido{
+    margin: 30px;
+}
+
+
+.carousel__contenedor {
+position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+position: absolute;
+display: block;
+width: 40px;
+height: 30px;
+border: none;
+top: calc(50% - 40px);
+cursor: pointer;
+line-height: 30px;
+text-align: center;
+background: none;
+color: #010C0C;
+opacity: 60%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+opacity: 100%;
+}
+
+.carousel__anterior {
+left: -40px;
+}
+
+.carousel__siguiente {
+right: -40px;
+}
+
+.carousel__lista {
+overflow: hidden;
+}
+
+.carousel__elemento {
+text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+display: block;
+width: 30px;
+height: 6px;
+background: #010C0C;
+opacity: .8;
+border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+body {
+    padding: 40px 0;
+}
+
+.contenido-principal {
+    flex-direction: column;
+}
+
+.contenido-principal > * {
+    width: 100%;
+}
+}
+
+.main-footer{
+    height: 100%;
+}
+            .contenedor-footer{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: rgb(43, 141,156,0.9);
+                justify-content: space-around;
+            }  
+                    .footer_One{
+                        width: 300px;
+                        padding: 50px;
+                    }
+                        .footerTwo{
+                            width: 300px;
+                            position: relative;
+                                justify-content: space-between;
+                             }
+                                .img-footer{
+                                    position: absolute;
+                                top: calc(50% - 40px);
+                                width: 100%;
+                                }
+
+                                .footerThree{
+                                     width: 300px;
+                                     padding: 50px;
+                                     }
+
+
+
+
+        .copyright{
+             background-color: rgb(43, 141,156);
+             height: 30px;
+            }    
+
+
+
+
+ 
