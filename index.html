@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<script src="js/modernizr.js"></script> 
+  	
+	<title>Log In &amp; LATIN COLORS</title>
+</head>
+<body>
+	
+	<header role="banner">
+		<div id="cd-logo"><a href="#0"><img src="img/logo.png" alt=" "></a></div>
+
+		<nav class="main-nav">
+			<ul>
+				<li><a class="cd-signin" href="#0">ingresar</a></li>
+				<li><a class="cd-signup" href="#0">registrar</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="cd-user-modal"> 
+		<div class="cd-user-modal-container"> 
+			<ul class="cd-switcher">
+				<li><a href="#0">ingresar</a></li>
+				<li><a href="#0">registrar</a></li>
+			</ul>
+             <!-- INICIAR SESIÓN -->
+			<div id="cd-login"> 
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Email no valido</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Contraseña</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="contraseña">
+						<a href="#0" class="hide-password">ocultar</a>
+						<span class="cd-error-message">Contraseña incorrecta!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Recordar datos</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="ingresar">
+					</p>
+				</form>
+				
+				<p class="cd-form-bottom-message"><a href="#0">¿olvidaste tu contraseña?</a></p>
+				
+			</div> 
+
+			<div id="cd-signup"> <!-- REGISTRO -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">Usuario</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Usuario">
+						<span class="cd-error-message">usuario incorrecto!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Email no valido</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">contraseña</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="contraseña">
+						<a href="#0" class="hide-password">ocultar</a>
+						<span class="cd-error-message">contraseña incorrecta</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">De acuerdo con terminos y condiciones <a href="#0"> </a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Crear cuenta">
+					</p>
+				</form>
+
+			
+			</div> 
+
+			<div id="cd-reset-password"> <!-- RECORDAR CONTRASEÑA -->
+				<p class="cd-form-message">¿olvidaste tu contraseña? escribe tu emal para enviarte el link de recuperación.</p>
+
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Email no valido!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Recupera contraseña">
+					</p>
+				</form>
+
+				<p class="cd-form-bottom-message"><a href="#0">volver al inicio</a></p>
+			</div> 
+			<a href="#0" class="cd-close-form">Cerrar</a>
+		</div>
+	</div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>
